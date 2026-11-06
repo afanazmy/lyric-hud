@@ -1,0 +1,14 @@
+# Folder view configuration files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two spaces
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
