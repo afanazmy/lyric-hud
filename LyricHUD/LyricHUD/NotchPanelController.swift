@@ -28,7 +28,7 @@ final class HUDPanel: NSPanel {
 }
 
 /// Supaya klik pertama pada tombol langsung bekerja walau panel tidak aktif.
-final class FirstMouseHostingView<Content: View>: NSHostingView<Content> {
+final class FirstMouseHostingView: NSHostingView<HUDRootView> {
     override func acceptsFirstMouse(for event: NSEvent?) -> Bool { true }
 }
 
